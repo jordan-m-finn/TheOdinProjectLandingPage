@@ -2,10 +2,14 @@ html, body {
     margin: 0px;
 }
 
+ .section3 {
+    padding: 150px 150px 150px 150px;
+}
+
 .navbar {
+    padding: 16px 150px 150px 150px;
     display: flex;
     flex-wrap: wrap;
-    padding: 16px 150px 150px 150px;
 }
 
 img {
@@ -92,12 +96,14 @@ h1 {
     display: block;
     background: #3882F6;
     color: #F9FAF8;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     padding: 5px;
     width: 125px;
     height: 35px;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .header {
@@ -107,16 +113,16 @@ h1 {
     padding-bottom: 100px;
 }
 
+.section2 {
+    padding: 16px 150px 150px 150px;
+}
+
 h2 {
     font-size: 32px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
     padding: 16px;
-}
-
-.section2 {
-    padding: 16px 150px 150px 150px;
 }
 
 .image-container {
@@ -138,9 +144,115 @@ h2 {
     width: 185px;
     height: 185px;
     border-radius: 20px;
-
 }
 
 .section2-subtext {
     text-align: center;
+}
+
+.center-quote {
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px 150px 16px 150px;
+    margin: 0px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-credit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 28px;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.callbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.call-content {
+    text-align: left;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    width: 1000px;
+    height: 125px;
+}
+
+.su {
+    background: #3882F6;
+    border-radius: 10px;
+    border: none;
+    width: 125px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.bottom-sign-up {
+    color: white;
+    border-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-su-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.call-messages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.cta, .ctam {
+    margin: 0;
+}
+
+.cta {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.ctam {
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
